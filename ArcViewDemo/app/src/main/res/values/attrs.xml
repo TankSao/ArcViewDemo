@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="arcHeight" format="dimension"/>
+    <attr name="radius" format="dimension"/>
+    <attr name="resourceid" format="string"/>
+
+    <declare-styleable name="ArcViewOut">
+        <attr name="arcHeight"/>
+        <attr name="bgColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="ArcImageIn">
+        <attr name="arcHeight"/>
+    </declare-styleable>
+
+    <declare-styleable name="SexAngleHeadView">
+        <attr name="radius"/>
+        <attr name="resourceid"/>
+        <attr name="scaleType" format="integer"/>
+        <attr name="sideWidth" format="integer"/>
+    </declare-styleable>
+
+</resources>
